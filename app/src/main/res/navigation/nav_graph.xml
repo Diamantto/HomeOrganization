@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/flatsFragment">
+    <fragment
+        android:id="@+id/flatsFragment"
+        android:name="com.example.homeapp.ui.fragments.flats.FlatsFragment"
+        android:label="FlatsFragment">
+        <action
+            android:id="@+id/action_flatsFragment_to_flatDetailFragment"
+            app:destination="@id/flatDetailFragment" />
+        <action
+            android:id="@+id/action_flatsFragment_to_flatEditFragment"
+            app:destination="@id/flatEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/billingsFragment"
+        android:name="com.example.homeapp.ui.fragments.billings.BillingsFragment"
+        android:label="BillingsFragment">
+        <action
+            android:id="@+id/action_billingsFragment_to_billingEditFragment"
+            app:destination="@id/billingEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personsFragment"
+        android:name="com.example.homeapp.ui.fragments.persons.PersonsFragment"
+        android:label="PersonsFragment">
+        <action
+            android:id="@+id/action_personsFragment_to_personEditFragment"
+            app:destination="@id/personEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flatDetailFragment"
+        android:name="com.example.homeapp.ui.fragments.flatdetail.FlatDetailFragment"
+        android:label="fragment_flat_detail"
+        tools:layout="@layout/fragment_flat_detail">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_flatDetailFragment_to_personEditFragment"
+            app:destination="@id/personEditFragment" />
+        <action
+            android:id="@+id/action_flatDetailFragment_to_billingEditFragment"
+            app:destination="@id/billingEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personEditFragment"
+        android:name="com.example.homeapp.ui.fragments.personedit.PersonEditFragment"
+        android:label="PersonEditFragment">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/billingEditFragment"
+        android:name="com.example.homeapp.ui.fragments.billingedit.BillingEditFragment"
+        android:label="BillingEditFragment">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/flatEditFragment"
+        android:name="com.example.homeapp.ui.fragments.flatedit.FlatEditFragment"
+        android:label="FlatEditFragment" />
+</navigation>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HomeApp</string>
+    <string name="flat_number_template"><b>Flat number:</b> %1$d</string>
+    <string name="flat_quantity_room_template"><b>Rooms:</b> %1$d</string>
+    <string name="flat_quantity_person_template"><b>Person quantity:</b> %1$d</string>
+    <string name="flat_id_template"><b>Id:</b> %1$d</string>
+    <string name="flat_description_template"><b>Description:</b> %1$s</string>
+    <string name="billing_time_template"><b>Time:</b> %1$s</string>
+    <string name="billing_sum_template"><b>Sum:</b> %1$.1f</string>
+    <string name="billing_service_template"><b>Service:</b> %1$s</string>
+    <string name="billing_id_template"><b>Id:</b> %1$d</string>
+    <string name="person_surname_template"><b>Surname:</b> %1$s</string>
+    <string name="person_name_template"><b>Name:</b> %1$s</string>
+    <string name="person_phone_template"><b>Phone:</b> %1$s</string>
+    <string name="person_id_template"><b>Id:</b> %1$d</string>
+    <string name="new_person_created">New person was created</string>
+    <string name="error_person_created">Error, person was not created</string>
+    <string name="person_deleted">Successfully deleted</string>
+    <string name="error_person_deleted">Error, person was not deleted</string>
+    <string name="person_updated">The person was updated</string>
+    <string name="error_person_updated">Error, the person was not updated</string>
+    <string name="new_billing_created">New billing was created</string>
+    <string name="error_billing_created">Error, billing was not created</string>
+    <string name="billing_deleted">Successfully deleted</string>
+    <string name="error_billing_deleted">Error, billing was not deleted</string>
+    <string name="billing_updated">The billing was updated</string>
+    <string name="error_billing_updated">Error, the billing was not updated</string>
+    <string name="new_flat_created">New flat was created</string>
+    <string name="error_flat_created">Error, flat was not created</string>
+    <string name="flat_deleted">Successfully deleted</string>
+    <string name="error_flat_deleted">Error, flat was not deleted</string>
+    <string name="flat_updated">The flat was updated</string>
+    <string name="error_flat_updated">Error, the flat was not updated</string>
+
+    <string-array name="month_array">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+
+    <string-array name="service_array">
+        <item>WATER</item>
+        <item>ELECTRICITY</item>
+        <item>CLEANING</item>
+        <item>RENT</item>
+        <item>OTHERS</item>
+    </string-array>
+
+
+</resources>
